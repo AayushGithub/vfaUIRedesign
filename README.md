@@ -26,5 +26,5 @@ $ python back_python.py
 ## Packaging the app
 You can pass any valid `pyinstaller` flag in the following command to further customize the way the app is built.
 ```sh
-$ python -m eel back_python.py web --noconsole --onefile --name VFA_GUI
+$ python -m eel back_python.py web --noconsole --onefile --name VFA_GUI -i app_icon_win.ico
 ```
