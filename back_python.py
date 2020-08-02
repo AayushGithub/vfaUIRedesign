@@ -2,7 +2,7 @@ import io
 import eel
 
 patient_name=""
-no_of_dots=0
+no_of_dots=100
 special_value=""
 eye_choice=""
 
