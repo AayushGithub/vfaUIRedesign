@@ -11,10 +11,10 @@ $ git clone git@github.com:AayushGithub/vfaUIRedesign.git
 $ cd vfaUIRedesign
 ```
 
-- Install eel, pyqrcode, and pyinstaller
+- Install eel and pyinstaller
 
 ```sh
-$ pip install eel pyinstaller pypng
+$ pip install eel pyinstaller
 ```
 
 - Run the app
