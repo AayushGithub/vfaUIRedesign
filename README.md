@@ -7,7 +7,7 @@ Front end developed in HTML 5, CSS 3 and JavaScript
 ## Getting Started
 - Clone the repo and cd into the directory
 ```sh
-$ git clone git@github.com:AayushGithub/vfaUIRedesign.git
+$ git clone https://github.com/AayushGithub/vfaUIRedesign.git
 $ cd vfaUIRedesign
 ```
 
