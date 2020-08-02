@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Visual Field Test</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>Welcome to the visual field test.</h2>
+                        <p>Please enter the following details:</p>
+                    </div>
+                    <div class="get-start-area">
+                        <form class="form-inline">
+                            <input type="text" id="name" class="form-control email" placeholder="Enter name">
+
+                            <input type="radio" name="eye" value="R" id="Right">
+                                                      <label for="right" class="radio_group">Right Eye</label><br>
+                            <input type="radio" name="eye" value="L" id="Left">
+                                                      <label for="left" class="radio_group">Left Eye</label><br>
+
+</form>
+<form >
+                                  <input type="number" id="dots" class="form-control email" placeholder="Enter # of dots (default = 100)">
+                                  <input type="text" id="special" class="form-control email" placeholder="Special options (Leave Blank)">
+
+                                  <div class="wellcome-heading">
+                                      <p>Good = F. Bad = J</p>
+                                  </div>
+
+                            <input type="button" class="submit" value="Submit" onclick="input_data()">
+                            <input type="button" class="submit" value="Disclaimer" onclick="disclaim_show()">
+
+                        </form>
+
+                        <h4 id="myDIV" class="disclaimer_design">
+Thank You for using Akshay Tate's Visual Field Test 2020.<br>
+Icon made by Freepik from www.flaticon.com.<br>
+All data collected by this app is stored locally and is not accessable by anyone but you.
+</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
